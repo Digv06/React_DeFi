@@ -8,6 +8,7 @@ const Navbar = () => {
         <h1>
           De <span className="primary">Fi</span>
         </h1>
+
         <ul className="nav-menu">
           <li>
             <a href="/">Home</a>
@@ -21,14 +22,14 @@ const Navbar = () => {
           <li>
             <a href="/">Contact</a>
           </li>
-          <div className="btn-group">
-            <button className="btn">Connect Wallet</button>
-          </div>
         </ul>
-      </div>
 
-      <div className="hamberger">
-        <FaBars size={20} style={{ color: "#333" }} />
+        <div className="btn-group">
+          <button className="btn">Connect Wallet</button>
+        </div>
+        <div className="hamburger">
+          <FaBars size={20} style={{ color: "#333" }} />
+        </div>
       </div>
     </div>
   );
